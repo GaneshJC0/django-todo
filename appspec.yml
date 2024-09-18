@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files: 
   - source: /
-    destination: /home/ubuntu/djang0-todo
+    destination: /home/ubuntu/django-todo
 permissions:
   - object: /home/ubuntu/django-todo
     owner: ubuntu
