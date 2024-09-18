@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files: 
   - source: /
-    destination: /home/ubuntu/blogprojectdrf
+    destination: /home/ubuntu/djang0-todo
 permissions:
-  - object: /home/ubuntu/blogprojectdrf
+  - object: /home/ubuntu/django-todo
     owner: ubuntu
     group: ubuntu
 hooks:
