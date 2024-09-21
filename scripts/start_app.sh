@@ -1,6 +1,6 @@
 #!/usr/bin/bash 
 
-sed -i 's/\[]/\["15.206.174.186"]/' /home/ubuntu/django-todo/todoApp/settings.py
+sed -i 's/\[]/\["3.110.188.198"]/' /home/ubuntu/django-todo/todoApp/settings.py
 
 python manage.py migrate 
 python manage.py makemigrations     
